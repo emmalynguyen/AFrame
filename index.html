@@ -58,12 +58,17 @@
       <a-plane position="2 4 -3.51" rotation="180 0 0" height="0.5" width="0.5" color="#4E7BB6"></a-plane>
       
       <!-- v bg and floor v -->
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="4" color="#e8e2d3"></a-plane>
+      <a-plane position="0 -3 -4" rotation="-90 0 0" width="20" height="4" color="#e8e2d3"></a-plane>
       <a-sky color="#E0D4B8"></a-sky>
 
       <!-- camera/view set up-->
-      <a-entity id="rig" position="1 2.5 0">
-        <a-entity id="camera" camera look-controls></a-entity>
+      <a-entity id="rig" position="1 2.5 1">
+        <a-entity id="camera" camera look-controls>
+        <a-entity text="value: BAUHAUS; color: black; width: 2;" position=".5 -.75 -1.25">
+        <a-entity text="value: AUSTELLUNG; color: black; width: 2;" position=".75 -.75 -1.25">
+        <a-entity text="value: 1923; color: black; width: 6;" position="2.4 -.95 -1.25">
+        <a-entity text="value: JULI, AUGUST, SEPTEMBER; color: black; width: 4;" position="-3.5 -.90 -1.25">
+        </a-entity>
       </a-entity>
       
     </a-scene>
